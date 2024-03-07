@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Svt</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-primary-subtle">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary-subtle">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SAY THE NAME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#albums">Albuns</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#history">History</a>
+                    </li>
+                </div>
+            </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://assets.teenvogue.com/photos/625943eba21d05d92c6dc949/16:9/w_2560%2Cc_limit/SVT_DS_Darl+ing_official%2520photo_SEVENTEEN_clean.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://recreio.uol.com.br/media/uploads/k-pop/seventeen_sector_17_capa.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2022/04/seventeen-SVT_Darl-ing_Exclusive_ALL.jpg?w=1581&h=1054&crop=1" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="container-fluid text-center p-2">
+        <div class="apresentacao">
+        <h2>seventeen</h2>
+            <p>
+                “In every language we sing in, we try to show Seventeen as we are,” leader S.Coups says thoughtfully, adjusting the small ponytail poking out of his shock of pink hair. “And I know that people whose native language is not Korean have to work hard to understand our message. So when we record we want to try as hard as they do when they listen to our music so we can share that together.” - Interview to Rolling Stone.<br><br>
+            </p>
+        </div>
+
+        <div class="apresentacao" id="history">
+            <h2>History</h2>
+                <p>
+                    Seventeen is a South Korean boy band formed by Pledis Entertainment. The group consists of thirteen members: S.Coups, Jeonghan, Joshua, Jun, Hoshi, Wonwoo, Woozi, DK, Mingyu, The8, Seungkwan, Vernon, and Dino. Seventeen has conquered a large audience since its debut and has grown into an internationally recognized K-Pop group with signature music and performances.<br>
+                    The group debuted on May 26, 2015, with the extended play (EP) 17 Carat which became the longest-charting K-pop album of the year in the US and the only rookie album to appear on Billboard's "10 Best K-Pop Albums of 2015" list.Seventeen has released four studio albums, twelve EPs and three reissues.<br>
+
+                    Seventeen is considered a "self-producing" idol group, with the members involved in songwriting, music production, and choreographing, among other aspects of their music and performances. They perform as one group and are divided into three units—hip-hop, vocal, and performance—each with a different area of specialization. They have been labeled "Performance Kings", "Theater Kids of K-Pop", and "K-Pop Performance Powerhouse'" by various domestic and international media outlets. - Wikipedia <br><br>
+                </p>
+            </div>
+
+    <section class="container-fluid bg bg-info-subtle p-4 text-center" id="albums">
+        <h2>discography <br> (studio album) </h2>
+        <table class="table table-danger table-striped table-hover table-border border-danger">
+              <thead class="table-secondary">
+                <tr>
+                    <th>Name</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Love & Letter</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td> Teen, Age </td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>An Ode</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Face The Sun</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Always Yours</td>
+                    <td>20239</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container-fluid p-3">
+        <h2>Want to be part of the fandom?</h2>
+        <form method="GET" action=""></form>
+            <Fieldset>
+                 <label>Name</label><br>
+                <input type="text" name="nome"><br><br>
+
+                <label>E-mail</label><br>
+                <input required type="email" name="email"><br><br>
+
+            </Fieldset>
+         
+            <br> <label>Comment</label><br>
+            <textarea name="comentário" id="" cols="30" rows="5"></textarea><br><br>
+
+            <button class="btn bg-danger-subtle">Send</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+<footer class="container-fluid p-2 bg-info-subtle text-center">
+    <h3 class="rodape-txt">Carats - 2024</h3>
+</footer>
+
+</html>
